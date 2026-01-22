@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "Privacy-enhanced tokens and related contracts",
+  "ethereum": {
+    "railgun": {
+      "name": "RAILGUN",
+      "risk_level": "HIGH",
+      "addresses": [
+        "0xFA7093CDD9EE6932B4eb2c9e1cde7CE00B1FA4b9",
+        "0xee6f212151A96D746D4C8A6c6eE8E8E42E3DDBF2"
+      ],
+      "description": "RAILGUN privacy system contracts"
+    },
+    "aztec": {
+      "name": "Aztec Protocol",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0x737901bea3eeb88459df9ef1BE8fF3Ae1B42A2ba"
+      ],
+      "description": "Aztec private transactions on Ethereum"
+    },
+    "secret_network_bridge": {
+      "name": "Secret Network Bridge",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0xf4B00C937b4ec4Bb5AC051c3c719036c668a31EC"
+      ],
+      "description": "Bridge to Secret Network (privacy-focused)"
+    },
+    "monero_bridge": {
+      "name": "Secret Monero Bridge",
+      "risk_level": "HIGH",
+      "addresses": [],
+      "description": "Monero bridge contracts (if available)"
+    },
+    "zcash_wrapped": {
+      "name": "Wrapped Zcash (WZEC)",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0x4A64515E5E1d1090a63EE8f2a3b49f6EDCA44472"
+      ],
+      "description": "Wrapped Zcash on Ethereum"
+    }
+  },
+  "privacy_tokens": [
+    {
+      "symbol": "XMR",
+      "name": "Monero",
+      "chain": "monero",
+      "risk_level": "HIGH",
+      "description": "Native privacy coin with ring signatures"
+    },
+    {
+      "symbol": "ZEC",
+      "name": "Zcash",
+      "chain": "zcash",
+      "risk_level": "MEDIUM",
+      "description": "Privacy coin with shielded transactions"
+    },
+    {
+      "symbol": "DASH",
+      "name": "Dash",
+      "chain": "dash",
+      "risk_level": "MEDIUM",
+      "description": "Optional privacy via PrivateSend"
+    },
+    {
+      "symbol": "SCRT",
+      "name": "Secret",
+      "chain": "secret",
+      "risk_level": "MEDIUM",
+      "description": "Privacy-preserving smart contracts"
+    },
+    {
+      "symbol": "RAIL",
+      "name": "RAILGUN",
+      "chain": "ethereum",
+      "risk_level": "HIGH",
+      "address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+      "description": "RAILGUN governance token"
+    }
+  ],
+  "notes": [
+    "Privacy token usage indicates desire for transaction privacy",
+    "Not all privacy-seeking behavior is illicit",
+    "HIGH risk indicates stronger anonymity features"
+  ]
+}

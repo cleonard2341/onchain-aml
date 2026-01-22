@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chain-scanner"
+version = "0.1.0"
+description = "On-chain AML pattern detection tool for cryptocurrency transactions"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Chain Scanner Contributors"}
+]
+keywords = ["blockchain", "aml", "cryptocurrency", "ethereum", "bitcoin", "compliance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Office/Business :: Financial",
+]
+
+dependencies = [
+    "click>=8.0",
+    "web3>=6.0",
+    "requests>=2.28",
+    "rich>=13.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+]
+
+[project.scripts]
+chain-scanner = "chain_scanner.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/example/chain-scanner"
+Documentation = "https://github.com/example/chain-scanner#readme"
+Repository = "https://github.com/example/chain-scanner"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["chain_scanner*"]
+
+[tool.setuptools.package-data]
+chain_scanner = ["data/*.json"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

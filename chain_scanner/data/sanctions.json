@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "OFAC sanctioned cryptocurrency addresses",
+  "source": "US Treasury OFAC SDN List",
+  "ethereum": [
+    {
+      "address": "0x8589427373D6D84E98730D7795D8f6f8731FDA16",
+      "name": "Tornado Cash: Gitcoin Grant",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+      "name": "Tornado Cash: Proxy",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0xDD4c48C0B24039969fC16D1cdF626eaB821d3384",
+      "name": "Tornado Cash: Donation",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+      "name": "Tornado Cash: Router",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0xd96f2B1c14Db8458374d9Aca76E26c3D18364307",
+      "name": "Tornado Cash: TORN Token",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0x4736dCf1b7A3d580672CcE6E7c65cd5cc9cFBa9D",
+      "name": "Tornado Cash: Governance Vault",
+      "date_added": "2022-08-08",
+      "program": "CYBER2"
+    },
+    {
+      "address": "0x169AD27A470D064DEDE56a2D3ff727986b15D52B",
+      "name": "Lazarus Group",
+      "date_added": "2022-04-14",
+      "program": "DPRK"
+    },
+    {
+      "address": "0x0836222F2B2B24A3F36f98668Ed8F0B38D1a872f",
+      "name": "Lazarus Group",
+      "date_added": "2022-04-14",
+      "program": "DPRK"
+    },
+    {
+      "address": "0x2717c5e28cf931547B621a5dddb772Ab6A35B701",
+      "name": "Ronin Bridge Exploiter",
+      "date_added": "2022-04-14",
+      "program": "DPRK"
+    },
+    {
+      "address": "0x53b6936513e738f44FB50d2b9476730C0Ab3Bfc1",
+      "name": "Blender.io",
+      "date_added": "2022-05-06",
+      "program": "CYBER2"
+    }
+  ],
+  "bitcoin": [
+    {
+      "address": "12QtD5BFwRsdNsAZY76UVE1xyCGNTojH9h",
+      "name": "Lazarus Group",
+      "date_added": "2022-04-14",
+      "program": "DPRK"
+    },
+    {
+      "address": "1LiYp3MwjLpnWnNKrKDMvXvmywVF9h3Goj",
+      "name": "Blender.io",
+      "date_added": "2022-05-06",
+      "program": "CYBER2"
+    },
+    {
+      "address": "1N8QSTivii9QSYP5FPvTFBbvMT3bFk2pY6",
+      "name": "Blender.io",
+      "date_added": "2022-05-06",
+      "program": "CYBER2"
+    },
+    {
+      "address": "3CFBZ4LdTYBVKWPnSzaS6XrBK4XVvhPZyj",
+      "name": "Hydra Market",
+      "date_added": "2022-04-05",
+      "program": "RUSSIA"
+    },
+    {
+      "address": "bc1q2ysxfsv37vzcqxqjelxqfy0dkfezwnrw9x9w9z",
+      "name": "Garantex",
+      "date_added": "2022-04-05",
+      "program": "RUSSIA"
+    }
+  ],
+  "notes": [
+    "This is a sample list for demonstration purposes",
+    "For production use, regularly update from official OFAC SDN list",
+    "Programs: CYBER2, DPRK, RUSSIA, etc. indicate sanctions program"
+  ]
+}

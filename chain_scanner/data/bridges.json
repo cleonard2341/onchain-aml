@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "Known cross-chain bridge contract addresses",
+  "ethereum": {
+    "wormhole": {
+      "name": "Wormhole",
+      "risk_level": "LOW",
+      "addresses": [
+        "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
+        "0x3ee18B2214AFF97000D974cf647E7C347E8fa585"
+      ],
+      "description": "Wormhole cross-chain bridge"
+    },
+    "multichain": {
+      "name": "Multichain (Anyswap)",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0x6b7a87899490EcE95443e979cA9485CBE7E71522",
+        "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE"
+      ],
+      "description": "Multichain (formerly Anyswap) bridge"
+    },
+    "ren_bridge": {
+      "name": "Ren Bridge",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0xe4b679400F0f267212D5D812B95f58C83243EE71",
+        "0x3344111B8180cd6F428fd90e2C6F30E7D71814D4"
+      ],
+      "description": "RenBridge for cross-chain transfers"
+    },
+    "synapse": {
+      "name": "Synapse Protocol",
+      "risk_level": "LOW",
+      "addresses": [
+        "0x2796317b0fF8538F253012862c06787Adfb8cEb6"
+      ],
+      "description": "Synapse Protocol bridge"
+    },
+    "hop": {
+      "name": "Hop Protocol",
+      "risk_level": "LOW",
+      "addresses": [
+        "0xb8901acB165ed027E32754E0FFe830802919727f",
+        "0x3666f603Cc164936C1b87e207F36BEBa4AC5f18a"
+      ],
+      "description": "Hop Protocol L2 bridge"
+    },
+    "celer": {
+      "name": "Celer cBridge",
+      "risk_level": "LOW",
+      "addresses": [
+        "0x5427FEFA711Eff984124bFBB1AB6fbf5E3DA1820"
+      ],
+      "description": "Celer Network cBridge"
+    },
+    "stargate": {
+      "name": "Stargate Finance",
+      "risk_level": "LOW",
+      "addresses": [
+        "0x8731d54E9D02c286767d56ac03e8037C07e01e98"
+      ],
+      "description": "Stargate Finance LayerZero bridge"
+    },
+    "thorchain": {
+      "name": "THORChain Router",
+      "risk_level": "MEDIUM",
+      "addresses": [
+        "0xD37BbE5744D730a1d98d8DC97c42F0Ca46aD7146"
+      ],
+      "description": "THORChain cross-chain router"
+    },
+    "ronin_bridge": {
+      "name": "Ronin Bridge",
+      "risk_level": "LOW",
+      "addresses": [
+        "0x1A2a1c938CE3eC39b6D47113c7955bAa9DD454F2"
+      ],
+      "description": "Axie Infinity Ronin Bridge"
+    },
+    "polygon_bridge": {
+      "name": "Polygon Bridge",
+      "risk_level": "LOW",
+      "addresses": [
+        "0xA0c68C638235ee32657e8f720a23ceC1bFc77C77",
+        "0x401F6c983eA34274ec46f84D70b31C151321188b"
+      ],
+      "description": "Polygon PoS Bridge"
+    }
+  },
+  "notes": [
+    "Bridge usage alone is not suspicious, but may indicate chain-hopping",
+    "Risk levels indicate potential for misuse, not inherent risk",
+    "MEDIUM risk bridges have been associated with incidents or have weaker KYC"
+  ]
+}

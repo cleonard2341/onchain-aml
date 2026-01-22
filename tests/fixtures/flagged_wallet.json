@@ -1,0 +1,66 @@
+{
+  "address": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+  "description": "Wallet with suspicious patterns for testing",
+  "transactions": [
+    {
+      "hash": "0xflag1111111111111111111111111111111111111111111111111111111111",
+      "from": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+      "to": "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936",
+      "value": "10000000000000000000",
+      "gasPrice": "20000000000",
+      "gasUsed": "100000",
+      "blockNumber": 15000000,
+      "timeStamp": "1672531200",
+      "input": "0x",
+      "_comment": "Deposit to Tornado Cash"
+    },
+    {
+      "hash": "0xflag2222222222222222222222222222222222222222222222222222222222",
+      "from": "0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF",
+      "to": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+      "value": "10000000000000000000",
+      "gasPrice": "20000000000",
+      "gasUsed": "100000",
+      "blockNumber": 15001000,
+      "timeStamp": "1672617600",
+      "input": "0x",
+      "_comment": "Withdrawal from Tornado Cash"
+    },
+    {
+      "hash": "0xflag3333333333333333333333333333333333333333333333333333333333",
+      "from": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+      "to": "0x8589427373D6D84E98730D7795D8f6f8731FDA16",
+      "value": "1000000000000000000",
+      "gasPrice": "20000000000",
+      "gasUsed": "21000",
+      "blockNumber": 15002000,
+      "timeStamp": "1672704000",
+      "input": "0x",
+      "_comment": "Interaction with OFAC sanctioned address"
+    },
+    {
+      "hash": "0xflag4444444444444444444444444444444444444444444444444444444444",
+      "from": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+      "to": "0xFA7093CDD9EE6932B4eb2c9e1cde7CE00B1FA4b9",
+      "value": "5000000000000000000",
+      "gasPrice": "20000000000",
+      "gasUsed": "150000",
+      "blockNumber": 15003000,
+      "timeStamp": "1672790400",
+      "input": "0x",
+      "_comment": "RAILGUN privacy protocol interaction"
+    },
+    {
+      "hash": "0xflag5555555555555555555555555555555555555555555555555555555555",
+      "from": "0xbad0bad0bad0bad0bad0bad0bad0bad0bad0bad0",
+      "to": "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
+      "value": "50000000000000000000",
+      "gasPrice": "20000000000",
+      "gasUsed": "200000",
+      "blockNumber": 15004000,
+      "timeStamp": "1672876800",
+      "input": "0x",
+      "_comment": "Wormhole bridge interaction"
+    }
+  ]
+}

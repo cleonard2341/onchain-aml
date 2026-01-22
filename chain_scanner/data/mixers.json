@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-01",
+  "description": "Known mixer and tumbler contract addresses",
+  "ethereum": {
+    "tornado_cash": {
+      "name": "Tornado Cash",
+      "risk_level": "HIGH",
+      "addresses": [
+        "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936",
+        "0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF",
+        "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+        "0xD4B88Df4D29F5CedD6857912842cff3b20C8Cfa3",
+        "0xFD8610d20aA15b7B2E3Be39B396a1bC3516c7144",
+        "0xF60dD140cFf0706bAE9Cd734Ac3ae76AD9eBC32A",
+        "0x22aaA7720ddd5388A3c0A3333430953C68f1849b",
+        "0xBA214C1c1928a32Bffe790263E38B4Af9bFCD659",
+        "0xb1C8094B234DcE6e03f10a5b673c1d8C69739A00",
+        "0x527653eA119F3E6a1F5BD18fbF4714081D7B31ce",
+        "0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2",
+        "0xD691F27f38B395864Ea86CfC7253969B409c362d"
+      ],
+      "description": "Tornado Cash mixing contracts (various denominations)"
+    },
+    "tornado_cash_router": {
+      "name": "Tornado Cash Router",
+      "risk_level": "HIGH",
+      "addresses": [
+        "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b"
+      ],
+      "description": "Tornado Cash relayer/router contracts"
+    }
+  },
+  "bitcoin": {
+    "wasabi_wallet": {
+      "name": "Wasabi Wallet CoinJoin",
+      "risk_level": "HIGH",
+      "patterns": ["coinjoin"],
+      "description": "Wasabi Wallet CoinJoin transactions - detected by pattern"
+    },
+    "joinmarket": {
+      "name": "JoinMarket",
+      "risk_level": "HIGH",
+      "patterns": ["coinjoin"],
+      "description": "JoinMarket CoinJoin transactions - detected by pattern"
+    },
+    "samourai_whirlpool": {
+      "name": "Samourai Whirlpool",
+      "risk_level": "HIGH",
+      "patterns": ["coinjoin"],
+      "description": "Samourai Wallet Whirlpool mixing - detected by pattern"
+    }
+  },
+  "notes": [
+    "Addresses are lowercase for consistent matching",
+    "Bitcoin mixers are detected by transaction patterns rather than addresses",
+    "Risk levels: LOW, MEDIUM, HIGH, CRITICAL"
+  ]
+}
