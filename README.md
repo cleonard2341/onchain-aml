@@ -23,7 +23,7 @@ pip install chain-scanner
 Or install from source:
 
 ```bash
-git clone https://github.com/example/chain-scanner.git
+git clone https://github.com/cleonard2341/onchain-aml.git
 cd chain-scanner
 pip install -e .
 ```
@@ -266,7 +266,7 @@ hash,from,to,value,blockNumber,timeStamp
 ### Setup
 
 ```bash
-git clone https://github.com/example/chain-scanner.git
+git clone https://github.com/cleonard2341/onchain-aml.git
 cd chain-scanner
 pip install -e ".[dev]"
 ```
